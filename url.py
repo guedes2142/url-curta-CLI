@@ -3,7 +3,7 @@ from colorama import Fore, Style
 import os
 import platform
 
-class url_curta():
+class UrlCurta():
 	def __init__(self):
 
 		self.sistema = platform.system()
@@ -33,6 +33,7 @@ class url_curta():
 				break
 
 
+				
 
-
-iniciar = url_curta()
+if __name__ == '__main__':
+	iniciar = UrlCurta()
